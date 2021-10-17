@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="shared.css">
+        <link rel="stylesheet" href="formscss.css">
+    </head>
+    <body class="body">
+        <!--Headaer section--> 
+        <header class="main-header">
+            <div class="container">
+                <div class="main-header-brand">
+                    <a href="./loyiha.html"></a>
+                    </div>
+                    <nav class="main-navigation">
+                        <ul class="main-navigation-items">
+                            <li class="main-navigation-item active">
+                                <a href="./loyiha.html">Asosiy</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="#">Men haqimda</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="#">Xizmatlar</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="#">Partfolio</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="#">Blog</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="#">Sheriklar</a>
+                            </li>
+                            <li class="main-navigation-item">
+                                <a href="./contact.html">Bog'lanish</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--/Header section-->
+
+        <div class="container">
+            <section  class="contact">
+                <div class="section__title">
+                    Men bilan bog'laning
+                </div>
+                <form action="/server.php" method="GET">
+                    <textarea name="massage" placeholder="Xabaringizni kiriting" rows="10"></textarea>
+                    <div class="half-flex">
+                        <div class="contact__firstname">
+                            <input type="text" name="firstname" placeholder="Ismingizni kiriting">
+                        </div>
+                        <div class="contact__email">
+                            <input type="email" name="email" placeholder="Emailigizni kiririting">
+                        </div>
+                    </div>
+                    <input type="text" name="subject" placeholder="Xat mazmuni">
+                    <button class="button contact-send" type="submit">Xabar jo'natish</button>
+                </form>
+            </section>
+        </div>
+
+
+        <!--Footer section-->
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Asosiy</a>
+                    </li>
+                    <li>
+                        <a href="#">Men haqimda</a>
+                    </li>
+                    <li>
+                        <a href="#">Xizmatlar</a>
+                    </li>
+                    <li>
+                        <a href="#">Partfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Sheriklar</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
